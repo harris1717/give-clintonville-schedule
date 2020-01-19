@@ -1,0 +1,19 @@
+{
+    "name": "give-clintonville-schedule",
+    "version": "1.0.0",
+    "description": "GIVE Yoga Clintonville Schedule",
+    "repository": "https://github.com/harris1717/give-clintonville-schedule/",
+    "main": "src/app.ts",
+    "scripts": {
+        "lint": "eslint src/**.ts --fix",
+        "build": "ts-node src/app.ts"
+    },
+    "author": "harris1717",
+    "license": "MIT",
+    "dependencies": {
+        "@types/node": "^12.7.2",
+        "axios": "^0.19.1",
+        "ts-node": "^8.3.0",
+        "typescript": "^3.5.3"
+    }
+}

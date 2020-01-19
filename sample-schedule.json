@@ -1,0 +1,1828 @@
+{
+    "meta": {
+        "pagination": {
+            "count": 8,
+            "pages": 1,
+            "page": 1,
+            "per_page": 100
+        }
+    },
+    "links": null,
+    "data": [
+        {
+            "type": "class_sessions",
+            "id": "23183",
+            "attributes": {
+                "start_date": "2020-01-19",
+                "start_time": "09:00:00",
+                "public": true,
+                "slot_price": [
+                    {
+                        "count": 1,
+                        "slot_type": 1
+                    }
+                ],
+                "start_datetime": "2020-01-19T14:00:00Z",
+                "end_datetime": "2020-01-19T15:00:00Z",
+                "capacity": 45,
+                "available_spots": [
+                    35008,
+                    35007,
+                    35006,
+                    35005,
+                    35004,
+                    35003,
+                    35001,
+                    34999,
+                    34998,
+                    34997,
+                    34996,
+                    34994,
+                    34993,
+                    34990,
+                    34989,
+                    34988,
+                    34987,
+                    34986,
+                    34985,
+                    34983,
+                    34982,
+                    34979,
+                    34978,
+                    34975,
+                    34974,
+                    34973,
+                    34972,
+                    34971,
+                    34970,
+                    34969,
+                    34968,
+                    34967,
+                    34966,
+                    34965,
+                    34964
+                ],
+                "vip_user_count": 0,
+                "first_time_user_count": 0,
+                "checked_in_user_count": 9,
+                "standard_reservation_user_count": 10,
+                "waitlist_reservation_user_count": 0,
+                "cancellation_datetime": null,
+                "public_note": null,
+                "standby_capacity": 0,
+                "archived_at": null,
+                "recurring_status": "in_sync",
+                "in_booking_window": false,
+                "instructor_names": [
+                    "Nicole Klasa"
+                ],
+                "classroom_display": "Root Studio",
+                "class_type_display": "Kundalini 60",
+                "addon_order_count": 1,
+                "duration": 60,
+                "layout_format": "first-come-first-serve",
+                "location_display": "Clintonville",
+                "geo_check_in_start_datetime": null,
+                "geo_check_in_end_datetime": null,
+                "kiosk_check_in_start_datetime": null,
+                "kiosk_check_in_end_datetime": null,
+                "public_waitlist_count": null,
+                "is_change_spots_enabled": false,
+                "waitlist_capacity": null,
+                "has_waitlist": true
+            },
+            "relationships": {
+                "layout": {
+                    "data": {
+                        "type": "layouts",
+                        "id": "6094"
+                    }
+                },
+                "instructors": {
+                    "data": [
+                        {
+                            "type": "employees",
+                            "id": "6125"
+                        }
+                    ]
+                },
+                "class_session_type": {
+                    "data": {
+                        "type": "class_session_types",
+                        "id": "5888"
+                    }
+                },
+                "booking_limit": {
+                    "data": null
+                },
+                "reservations": {
+                    "data": [
+                        {
+                            "type": "reservations",
+                            "id": "223015"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223005"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223035"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222852"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223043"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223045"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223038"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "221637"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222199"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223031"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222955"
+                        }
+                    ]
+                },
+                "spot_holds": {
+                    "data": []
+                },
+                "booking_windows": {
+                    "data": []
+                },
+                "class_session_notes": {
+                    "data": []
+                },
+                "employee_public_profiles": {
+                    "data": [
+                        {
+                            "type": "employee_public_profiles",
+                            "id": "5308"
+                        }
+                    ]
+                },
+                "location": {
+                    "data": {
+                        "type": "locations",
+                        "id": "48056"
+                    }
+                },
+                "classroom": {
+                    "data": {
+                        "type": "classrooms",
+                        "id": "6133"
+                    }
+                },
+                "cancelled_by_user": {
+                    "data": null
+                },
+                "substituted_instructors": {
+                    "data": []
+                },
+                "tags": {
+                    "data": [
+                        {
+                            "type": "class_session_tags",
+                            "id": "4787"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "class_sessions",
+            "id": "23159",
+            "attributes": {
+                "start_date": "2020-01-19",
+                "start_time": "09:00:00",
+                "public": true,
+                "slot_price": [
+                    {
+                        "count": 1,
+                        "slot_type": 1
+                    }
+                ],
+                "start_datetime": "2020-01-19T14:00:00Z",
+                "end_datetime": "2020-01-19T15:15:00Z",
+                "capacity": 32,
+                "available_spots": [
+                    35680,
+                    35679,
+                    35678,
+                    35677,
+                    35676,
+                    35675,
+                    35674,
+                    35672,
+                    35671,
+                    35670,
+                    35669,
+                    35668,
+                    35667,
+                    35666,
+                    35665,
+                    35664,
+                    35663,
+                    35662,
+                    35661,
+                    35660,
+                    35659,
+                    35658,
+                    35656,
+                    35654,
+                    35653,
+                    35651,
+                    35650
+                ],
+                "vip_user_count": 0,
+                "first_time_user_count": 2,
+                "checked_in_user_count": 5,
+                "standard_reservation_user_count": 5,
+                "waitlist_reservation_user_count": 0,
+                "cancellation_datetime": null,
+                "public_note": null,
+                "standby_capacity": 0,
+                "archived_at": null,
+                "recurring_status": "in_sync",
+                "in_booking_window": false,
+                "instructor_names": [
+                    "Dana Bernstein"
+                ],
+                "classroom_display": "Indigo Studio",
+                "class_type_display": "Stretch + Strengthen 75",
+                "addon_order_count": 0,
+                "duration": 75,
+                "layout_format": "first-come-first-serve",
+                "location_display": "Clintonville",
+                "geo_check_in_start_datetime": null,
+                "geo_check_in_end_datetime": null,
+                "kiosk_check_in_start_datetime": null,
+                "kiosk_check_in_end_datetime": null,
+                "public_waitlist_count": null,
+                "is_change_spots_enabled": false,
+                "waitlist_capacity": null,
+                "has_waitlist": true
+            },
+            "relationships": {
+                "layout": {
+                    "data": {
+                        "type": "layouts",
+                        "id": "6113"
+                    }
+                },
+                "instructors": {
+                    "data": [
+                        {
+                            "type": "employees",
+                            "id": "6230"
+                        }
+                    ]
+                },
+                "class_session_type": {
+                    "data": {
+                        "type": "class_session_types",
+                        "id": "5874"
+                    }
+                },
+                "booking_limit": {
+                    "data": null
+                },
+                "reservations": {
+                    "data": [
+                        {
+                            "type": "reservations",
+                            "id": "222987"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222666"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223048"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222962"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222964"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223046"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222949"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222971"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222424"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222483"
+                        }
+                    ]
+                },
+                "spot_holds": {
+                    "data": []
+                },
+                "booking_windows": {
+                    "data": []
+                },
+                "class_session_notes": {
+                    "data": []
+                },
+                "employee_public_profiles": {
+                    "data": [
+                        {
+                            "type": "employee_public_profiles",
+                            "id": "5411"
+                        }
+                    ]
+                },
+                "location": {
+                    "data": {
+                        "type": "locations",
+                        "id": "48056"
+                    }
+                },
+                "classroom": {
+                    "data": {
+                        "type": "classrooms",
+                        "id": "6132"
+                    }
+                },
+                "cancelled_by_user": {
+                    "data": null
+                },
+                "substituted_instructors": {
+                    "data": []
+                },
+                "tags": {
+                    "data": [
+                        {
+                            "type": "class_session_tags",
+                            "id": "4787"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "class_sessions",
+            "id": "23181",
+            "attributes": {
+                "start_date": "2020-01-19",
+                "start_time": "10:15:00",
+                "public": true,
+                "slot_price": [
+                    {
+                        "count": 1,
+                        "slot_type": 1
+                    }
+                ],
+                "start_datetime": "2020-01-19T15:15:00Z",
+                "end_datetime": "2020-01-19T16:15:00Z",
+                "capacity": 45,
+                "available_spots": [
+                    35000,
+                    34997,
+                    34993,
+                    34992,
+                    34991,
+                    34984,
+                    34983,
+                    34977,
+                    34968,
+                    34967,
+                    34966,
+                    34964
+                ],
+                "vip_user_count": 0,
+                "first_time_user_count": 2,
+                "checked_in_user_count": 31,
+                "standard_reservation_user_count": 33,
+                "waitlist_reservation_user_count": 0,
+                "cancellation_datetime": null,
+                "public_note": null,
+                "standby_capacity": 0,
+                "archived_at": null,
+                "recurring_status": "in_sync",
+                "in_booking_window": false,
+                "instructor_names": [
+                    "Nicole Klasa"
+                ],
+                "classroom_display": "Root Studio",
+                "class_type_display": "Hot Baptiste Power Yoga 60",
+                "addon_order_count": 1,
+                "duration": 60,
+                "layout_format": "first-come-first-serve",
+                "location_display": "Clintonville",
+                "geo_check_in_start_datetime": null,
+                "geo_check_in_end_datetime": null,
+                "kiosk_check_in_start_datetime": null,
+                "kiosk_check_in_end_datetime": null,
+                "public_waitlist_count": null,
+                "is_change_spots_enabled": false,
+                "waitlist_capacity": null,
+                "has_waitlist": true
+            },
+            "relationships": {
+                "layout": {
+                    "data": {
+                        "type": "layouts",
+                        "id": "6094"
+                    }
+                },
+                "instructors": {
+                    "data": [
+                        {
+                            "type": "employees",
+                            "id": "6125"
+                        }
+                    ]
+                },
+                "class_session_type": {
+                    "data": {
+                        "type": "class_session_types",
+                        "id": "5810"
+                    }
+                },
+                "booking_limit": {
+                    "data": null
+                },
+                "reservations": {
+                    "data": [
+                        {
+                            "type": "reservations",
+                            "id": "222182"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223080"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223084"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222205"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223074"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223088"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222907"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222658"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222204"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223099"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223067"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223092"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "221977"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223082"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222952"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222938"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "221759"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223100"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223056"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223013"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222951"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223094"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "221422"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223089"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222200"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "221974"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223081"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "221644"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222078"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223085"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "221651"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223101"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223096"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223093"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222037"
+                        }
+                    ]
+                },
+                "spot_holds": {
+                    "data": []
+                },
+                "booking_windows": {
+                    "data": []
+                },
+                "class_session_notes": {
+                    "data": []
+                },
+                "employee_public_profiles": {
+                    "data": [
+                        {
+                            "type": "employee_public_profiles",
+                            "id": "5308"
+                        }
+                    ]
+                },
+                "location": {
+                    "data": {
+                        "type": "locations",
+                        "id": "48056"
+                    }
+                },
+                "classroom": {
+                    "data": {
+                        "type": "classrooms",
+                        "id": "6133"
+                    }
+                },
+                "cancelled_by_user": {
+                    "data": null
+                },
+                "substituted_instructors": {
+                    "data": []
+                },
+                "tags": {
+                    "data": [
+                        {
+                            "type": "class_session_tags",
+                            "id": "4787"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "class_sessions",
+            "id": "23180",
+            "attributes": {
+                "start_date": "2020-01-19",
+                "start_time": "10:45:00",
+                "public": true,
+                "slot_price": [
+                    {
+                        "count": 1,
+                        "slot_type": 1
+                    }
+                ],
+                "start_datetime": "2020-01-19T15:45:00Z",
+                "end_datetime": "2020-01-19T17:00:00Z",
+                "capacity": 32,
+                "available_spots": [],
+                "vip_user_count": 0,
+                "first_time_user_count": 3,
+                "checked_in_user_count": 32,
+                "standard_reservation_user_count": 32,
+                "waitlist_reservation_user_count": 0,
+                "cancellation_datetime": null,
+                "public_note": null,
+                "standby_capacity": 0,
+                "archived_at": null,
+                "recurring_status": "in_sync",
+                "in_booking_window": false,
+                "instructor_names": [
+                    "Andy King"
+                ],
+                "classroom_display": "Indigo Studio",
+                "class_type_display": "Easy Like Sunday Morning 75",
+                "addon_order_count": 1,
+                "duration": 75,
+                "layout_format": "first-come-first-serve",
+                "location_display": "Clintonville",
+                "geo_check_in_start_datetime": null,
+                "geo_check_in_end_datetime": null,
+                "kiosk_check_in_start_datetime": null,
+                "kiosk_check_in_end_datetime": null,
+                "public_waitlist_count": null,
+                "is_change_spots_enabled": false,
+                "waitlist_capacity": null,
+                "has_waitlist": true
+            },
+            "relationships": {
+                "layout": {
+                    "data": {
+                        "type": "layouts",
+                        "id": "6113"
+                    }
+                },
+                "instructors": {
+                    "data": [
+                        {
+                            "type": "employees",
+                            "id": "6068"
+                        }
+                    ]
+                },
+                "class_session_type": {
+                    "data": {
+                        "type": "class_session_types",
+                        "id": "5841"
+                    }
+                },
+                "booking_limit": {
+                    "data": null
+                },
+                "reservations": {
+                    "data": [
+                        {
+                            "type": "reservations",
+                            "id": "220708"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223103"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223077"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223000"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223062"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223107"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223073"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "221639"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223069"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223059"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222973"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222685"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222587"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222948"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222610"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223001"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223023"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223070"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222439"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223019"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222994"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223068"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222939"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "221924"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223078"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222968"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223102"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223016"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222972"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222052"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222786"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222816"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223072"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223083"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223071"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223105"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222834"
+                        }
+                    ]
+                },
+                "spot_holds": {
+                    "data": [
+                        {
+                            "type": "spot_holds",
+                            "id": "986"
+                        },
+                        {
+                            "type": "spot_holds",
+                            "id": "985"
+                        },
+                        {
+                            "type": "spot_holds",
+                            "id": "984"
+                        }
+                    ]
+                },
+                "booking_windows": {
+                    "data": []
+                },
+                "class_session_notes": {
+                    "data": []
+                },
+                "employee_public_profiles": {
+                    "data": [
+                        {
+                            "type": "employee_public_profiles",
+                            "id": "5251"
+                        }
+                    ]
+                },
+                "location": {
+                    "data": {
+                        "type": "locations",
+                        "id": "48056"
+                    }
+                },
+                "classroom": {
+                    "data": {
+                        "type": "classrooms",
+                        "id": "6132"
+                    }
+                },
+                "cancelled_by_user": {
+                    "data": null
+                },
+                "substituted_instructors": {
+                    "data": []
+                },
+                "tags": {
+                    "data": [
+                        {
+                            "type": "class_session_tags",
+                            "id": "4787"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "class_sessions",
+            "id": "23166",
+            "attributes": {
+                "start_date": "2020-01-19",
+                "start_time": "11:30:00",
+                "public": true,
+                "slot_price": [
+                    {
+                        "count": 1,
+                        "slot_type": 1
+                    }
+                ],
+                "start_datetime": "2020-01-19T16:30:00Z",
+                "end_datetime": "2020-01-19T17:45:00Z",
+                "capacity": 45,
+                "available_spots": [
+                    35004,
+                    35003,
+                    35002,
+                    35001,
+                    35000,
+                    34999,
+                    34998,
+                    34997,
+                    34993,
+                    34992,
+                    34991,
+                    34990,
+                    34989,
+                    34988,
+                    34987,
+                    34985,
+                    34983,
+                    34980,
+                    34979,
+                    34977,
+                    34976,
+                    34975,
+                    34974,
+                    34973,
+                    34972,
+                    34971,
+                    34970,
+                    34969,
+                    34968,
+                    34967,
+                    34966,
+                    34965
+                ],
+                "vip_user_count": 0,
+                "first_time_user_count": 0,
+                "checked_in_user_count": 13,
+                "standard_reservation_user_count": 13,
+                "waitlist_reservation_user_count": 0,
+                "cancellation_datetime": null,
+                "public_note": null,
+                "standby_capacity": 0,
+                "archived_at": null,
+                "recurring_status": "in_sync",
+                "in_booking_window": false,
+                "instructor_names": [
+                    "Darin Fulks"
+                ],
+                "classroom_display": "Root Studio",
+                "class_type_display": "Hot Baptiste Power Yoga 75",
+                "addon_order_count": 0,
+                "duration": 75,
+                "layout_format": "first-come-first-serve",
+                "location_display": "Clintonville",
+                "geo_check_in_start_datetime": null,
+                "geo_check_in_end_datetime": null,
+                "kiosk_check_in_start_datetime": null,
+                "kiosk_check_in_end_datetime": null,
+                "public_waitlist_count": null,
+                "is_change_spots_enabled": false,
+                "waitlist_capacity": null,
+                "has_waitlist": true
+            },
+            "relationships": {
+                "layout": {
+                    "data": {
+                        "type": "layouts",
+                        "id": "6094"
+                    }
+                },
+                "instructors": {
+                    "data": [
+                        {
+                            "type": "employees",
+                            "id": "6089"
+                        }
+                    ]
+                },
+                "class_session_type": {
+                    "data": {
+                        "type": "class_session_types",
+                        "id": "5815"
+                    }
+                },
+                "booking_limit": {
+                    "data": null
+                },
+                "reservations": {
+                    "data": [
+                        {
+                            "type": "reservations",
+                            "id": "222885"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222940"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223108"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223098"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223116"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222956"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223066"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223097"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222710"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223121"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223111"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223122"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223117"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223128"
+                        }
+                    ]
+                },
+                "spot_holds": {
+                    "data": []
+                },
+                "booking_windows": {
+                    "data": []
+                },
+                "class_session_notes": {
+                    "data": []
+                },
+                "employee_public_profiles": {
+                    "data": [
+                        {
+                            "type": "employee_public_profiles",
+                            "id": "5272"
+                        }
+                    ]
+                },
+                "location": {
+                    "data": {
+                        "type": "locations",
+                        "id": "48056"
+                    }
+                },
+                "classroom": {
+                    "data": {
+                        "type": "classrooms",
+                        "id": "6133"
+                    }
+                },
+                "cancelled_by_user": {
+                    "data": null
+                },
+                "substituted_instructors": {
+                    "data": []
+                },
+                "tags": {
+                    "data": [
+                        {
+                            "type": "class_session_tags",
+                            "id": "4787"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "class_sessions",
+            "id": "23179",
+            "attributes": {
+                "start_date": "2020-01-19",
+                "start_time": "13:30:00",
+                "public": true,
+                "slot_price": [
+                    {
+                        "count": 1,
+                        "slot_type": 1
+                    }
+                ],
+                "start_datetime": "2020-01-19T18:30:00Z",
+                "end_datetime": "2020-01-19T19:45:00Z",
+                "capacity": 40,
+                "available_spots": [
+                    34821,
+                    34818,
+                    34815,
+                    34813,
+                    34812,
+                    34809,
+                    34808,
+                    34806,
+                    34804,
+                    34799,
+                    34793,
+                    34792,
+                    34791
+                ],
+                "vip_user_count": 0,
+                "first_time_user_count": 1,
+                "checked_in_user_count": 27,
+                "standard_reservation_user_count": 27,
+                "waitlist_reservation_user_count": 0,
+                "cancellation_datetime": null,
+                "public_note": null,
+                "standby_capacity": 0,
+                "archived_at": null,
+                "recurring_status": "in_sync",
+                "in_booking_window": false,
+                "instructor_names": [
+                    "Cecilia Shanahan"
+                ],
+                "classroom_display": "Root Studio",
+                "class_type_display": "Hot Power + Restore 75",
+                "addon_order_count": 0,
+                "duration": 75,
+                "layout_format": "first-come-first-serve",
+                "location_display": "Clintonville",
+                "geo_check_in_start_datetime": null,
+                "geo_check_in_end_datetime": null,
+                "kiosk_check_in_start_datetime": null,
+                "kiosk_check_in_end_datetime": null,
+                "public_waitlist_count": null,
+                "is_change_spots_enabled": false,
+                "waitlist_capacity": null,
+                "has_waitlist": true
+            },
+            "relationships": {
+                "layout": {
+                    "data": {
+                        "type": "layouts",
+                        "id": "6089"
+                    }
+                },
+                "instructors": {
+                    "data": [
+                        {
+                            "type": "employees",
+                            "id": "6081"
+                        }
+                    ]
+                },
+                "class_session_type": {
+                    "data": {
+                        "type": "class_session_types",
+                        "id": "5889"
+                    }
+                },
+                "booking_limit": {
+                    "data": null
+                },
+                "reservations": {
+                    "data": [
+                        {
+                            "type": "reservations",
+                            "id": "223169"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223175"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223044"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223133"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222665"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223173"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223150"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223179"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223148"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223178"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223036"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223171"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223167"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223138"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223137"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223145"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223004"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223027"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223146"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222614"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223147"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223091"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223095"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223087"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223166"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223174"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223033"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223104"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223176"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "221922"
+                        }
+                    ]
+                },
+                "spot_holds": {
+                    "data": []
+                },
+                "booking_windows": {
+                    "data": []
+                },
+                "class_session_notes": {
+                    "data": []
+                },
+                "employee_public_profiles": {
+                    "data": [
+                        {
+                            "type": "employee_public_profiles",
+                            "id": "5264"
+                        }
+                    ]
+                },
+                "location": {
+                    "data": {
+                        "type": "locations",
+                        "id": "48056"
+                    }
+                },
+                "classroom": {
+                    "data": {
+                        "type": "classrooms",
+                        "id": "6133"
+                    }
+                },
+                "cancelled_by_user": {
+                    "data": null
+                },
+                "substituted_instructors": {
+                    "data": []
+                },
+                "tags": {
+                    "data": [
+                        {
+                            "type": "class_session_tags",
+                            "id": "4787"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "class_sessions",
+            "id": "23178",
+            "attributes": {
+                "start_date": "2020-01-19",
+                "start_time": "15:00:00",
+                "public": true,
+                "slot_price": [
+                    {
+                        "count": 1,
+                        "slot_type": 1
+                    }
+                ],
+                "start_datetime": "2020-01-19T20:00:00Z",
+                "end_datetime": "2020-01-19T21:00:00Z",
+                "capacity": 35,
+                "available_spots": [
+                    35381,
+                    35380,
+                    35378,
+                    35376,
+                    35375,
+                    35372,
+                    35371,
+                    35370,
+                    35369,
+                    35368,
+                    35367,
+                    35366,
+                    35365,
+                    35364,
+                    35363,
+                    35362,
+                    35361,
+                    35360,
+                    35359,
+                    35358,
+                    35357,
+                    35356,
+                    35355,
+                    35353,
+                    35351,
+                    35350,
+                    35349
+                ],
+                "vip_user_count": 0,
+                "first_time_user_count": 0,
+                "checked_in_user_count": 0,
+                "standard_reservation_user_count": 8,
+                "waitlist_reservation_user_count": 0,
+                "cancellation_datetime": null,
+                "public_note": null,
+                "standby_capacity": 0,
+                "archived_at": null,
+                "recurring_status": "in_sync",
+                "in_booking_window": false,
+                "instructor_names": [
+                    "Zach Swartz"
+                ],
+                "classroom_display": "Root Studio",
+                "class_type_display": "Toasty Warm Yin Yoga 60",
+                "addon_order_count": 0,
+                "duration": 60,
+                "layout_format": "first-come-first-serve",
+                "location_display": "Clintonville",
+                "geo_check_in_start_datetime": null,
+                "geo_check_in_end_datetime": null,
+                "kiosk_check_in_start_datetime": null,
+                "kiosk_check_in_end_datetime": null,
+                "public_waitlist_count": null,
+                "is_change_spots_enabled": false,
+                "waitlist_capacity": null,
+                "has_waitlist": true
+            },
+            "relationships": {
+                "layout": {
+                    "data": {
+                        "type": "layouts",
+                        "id": "6105"
+                    }
+                },
+                "instructors": {
+                    "data": [
+                        {
+                            "type": "employees",
+                            "id": "6150"
+                        }
+                    ]
+                },
+                "class_session_type": {
+                    "data": {
+                        "type": "class_session_types",
+                        "id": "5840"
+                    }
+                },
+                "booking_limit": {
+                    "data": null
+                },
+                "reservations": {
+                    "data": [
+                        {
+                            "type": "reservations",
+                            "id": "222936"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223123"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223028"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223168"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223112"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222656"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222655"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223172"
+                        }
+                    ]
+                },
+                "spot_holds": {
+                    "data": []
+                },
+                "booking_windows": {
+                    "data": [
+                        {
+                            "type": "booking_windows",
+                            "id": "55574"
+                        },
+                        {
+                            "type": "booking_windows",
+                            "id": "55575"
+                        }
+                    ]
+                },
+                "class_session_notes": {
+                    "data": []
+                },
+                "employee_public_profiles": {
+                    "data": [
+                        {
+                            "type": "employee_public_profiles",
+                            "id": "5333"
+                        }
+                    ]
+                },
+                "location": {
+                    "data": {
+                        "type": "locations",
+                        "id": "48056"
+                    }
+                },
+                "classroom": {
+                    "data": {
+                        "type": "classrooms",
+                        "id": "6133"
+                    }
+                },
+                "cancelled_by_user": {
+                    "data": null
+                },
+                "substituted_instructors": {
+                    "data": []
+                },
+                "tags": {
+                    "data": [
+                        {
+                            "type": "class_session_tags",
+                            "id": "4787"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "class_sessions",
+            "id": "23163",
+            "attributes": {
+                "start_date": "2020-01-19",
+                "start_time": "16:30:00",
+                "public": true,
+                "slot_price": [
+                    {
+                        "count": 1,
+                        "slot_type": 1
+                    }
+                ],
+                "start_datetime": "2020-01-19T21:30:00Z",
+                "end_datetime": "2020-01-19T22:45:00Z",
+                "capacity": 45,
+                "available_spots": [
+                    35001,
+                    35000,
+                    34999,
+                    34998,
+                    34997,
+                    34996,
+                    34994,
+                    34993,
+                    34992,
+                    34991,
+                    34990,
+                    34987,
+                    34986,
+                    34983,
+                    34982,
+                    34980,
+                    34979,
+                    34978,
+                    34977,
+                    34976,
+                    34974,
+                    34973,
+                    34972,
+                    34971,
+                    34970,
+                    34969,
+                    34968,
+                    34967,
+                    34966,
+                    34965
+                ],
+                "vip_user_count": 0,
+                "first_time_user_count": 0,
+                "checked_in_user_count": 0,
+                "standard_reservation_user_count": 15,
+                "waitlist_reservation_user_count": 0,
+                "cancellation_datetime": null,
+                "public_note": null,
+                "standby_capacity": 0,
+                "archived_at": null,
+                "recurring_status": "in_sync",
+                "in_booking_window": false,
+                "instructor_names": [
+                    "Leah Westwater"
+                ],
+                "classroom_display": "Root Studio",
+                "class_type_display": "Hot Sunday Flow 75",
+                "addon_order_count": 0,
+                "duration": 75,
+                "layout_format": "first-come-first-serve",
+                "location_display": "Clintonville",
+                "geo_check_in_start_datetime": null,
+                "geo_check_in_end_datetime": null,
+                "kiosk_check_in_start_datetime": null,
+                "kiosk_check_in_end_datetime": null,
+                "public_waitlist_count": null,
+                "is_change_spots_enabled": false,
+                "waitlist_capacity": null,
+                "has_waitlist": true
+            },
+            "relationships": {
+                "layout": {
+                    "data": {
+                        "type": "layouts",
+                        "id": "6094"
+                    }
+                },
+                "instructors": {
+                    "data": [
+                        {
+                            "type": "employees",
+                            "id": "6113"
+                        }
+                    ]
+                },
+                "class_session_type": {
+                    "data": {
+                        "type": "class_session_types",
+                        "id": "5839"
+                    }
+                },
+                "booking_limit": {
+                    "data": null
+                },
+                "reservations": {
+                    "data": [
+                        {
+                            "type": "reservations",
+                            "id": "222997"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222960"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223186"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "221460"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222244"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223026"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "221329"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223182"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "221760"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223170"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222812"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223185"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223011"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222609"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222942"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "223012"
+                        },
+                        {
+                            "type": "reservations",
+                            "id": "222830"
+                        }
+                    ]
+                },
+                "spot_holds": {
+                    "data": []
+                },
+                "booking_windows": {
+                    "data": [
+                        {
+                            "type": "booking_windows",
+                            "id": "55574"
+                        },
+                        {
+                            "type": "booking_windows",
+                            "id": "55575"
+                        }
+                    ]
+                },
+                "class_session_notes": {
+                    "data": []
+                },
+                "employee_public_profiles": {
+                    "data": [
+                        {
+                            "type": "employee_public_profiles",
+                            "id": "5296"
+                        }
+                    ]
+                },
+                "location": {
+                    "data": {
+                        "type": "locations",
+                        "id": "48056"
+                    }
+                },
+                "classroom": {
+                    "data": {
+                        "type": "classrooms",
+                        "id": "6133"
+                    }
+                },
+                "cancelled_by_user": {
+                    "data": null
+                },
+                "substituted_instructors": {
+                    "data": []
+                },
+                "tags": {
+                    "data": [
+                        {
+                            "type": "class_session_tags",
+                            "id": "4787"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "included": []
+}
