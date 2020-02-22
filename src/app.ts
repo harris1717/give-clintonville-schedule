@@ -1,10 +1,8 @@
-import axios from 'axios';
-
 (async () => {
     const classes = await getClasses();
     const html = generateHtml(classes);
     addHtmlToPage(html);
-})()
+})();
 
 async function getClasses() {
     const schedule = await fetchSchedule();
@@ -14,15 +12,17 @@ async function getClasses() {
 async function fetchSchedule() {
     const { today, tenDaysFromToday } = getDates();
     const uri = `https://giveyoga.marianatek.com/api/class_sessions?include=in_booking_window&location=48056&min_date=${today}&max_date=${tenDaysFromToday}&ordering=start_datetime&page_size=100`;
-    const schedule = (await axios.get(uri)).data.data;
+    const response = await fetch(uri);
+    const responseData = await response.json();
+    const schedule = responseData.data;
     return schedule;
 }
 
 function getDates() {
     let date = new Date();
-    const today = date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate();
+    const today = `${date.getFullYear()}-${+date.getMonth()}-${date.getDate()}`;
     date = addDays(date, 9);
-    const tenDaysFromToday = date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate();
+    const tenDaysFromToday = `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`;
     return { today, tenDaysFromToday };
 }
 
@@ -43,12 +43,13 @@ function toClass(classEntity: any) {
 
 function generateHtml(classes: Class[]) {
     let html = '';
-    classes.forEach((c) => html += `<li>${c.name}; ${c.startDateTime}; ${c.instructor}; ${c.room}</li>`);
+    const options = { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric' };
+    classes.forEach((c) => html += `<li>${c.name}; ${c.startDateTime.toLocaleDateString('en-US', options)}; ${c.instructor}; ${c.room}</li>`);
     return html;
 }
 
 function addHtmlToPage(html: string) {
-    document.getElementById('classList').innerHTML = html;
+    document.getElementById('schedule')!.innerHTML = html;
 }
 
 type Class = {
