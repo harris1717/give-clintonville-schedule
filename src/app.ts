@@ -1,3 +1,5 @@
+import * as Models from "./models";
+
 (async () => {
     const classes = await getClasses();
     const classesGroupedByDay = groupByDay(classes);
@@ -7,7 +9,7 @@
 
 async function getClasses() {
     const schedule = await fetchSchedule();
-    return schedule.map((c: any) => toClass(c)) as Class[];
+    return schedule.map((c: any) => toClass(c)) as Models.Class[];
 }
 
 async function fetchSchedule() {
@@ -19,10 +21,10 @@ async function fetchSchedule() {
     return schedule;
 }
 
-function groupByDay(classes: Class[]) {
+function groupByDay(classes: Models.Class[]) {
     const days = classes.map((c) => c.startDateTime.getDate());
     const uniqueDays = [...new Set(days)];
-    const groupedClasses: Class[][] = [];
+    const groupedClasses: Models.Class[][] = [];
     uniqueDays.forEach(day => {
         const classesForDay = classes.filter(c => c.startDateTime.getDate() === day);
         groupedClasses.push(classesForDay);
@@ -32,7 +34,7 @@ function groupByDay(classes: Class[]) {
 
 function getDates() {
     let date = new Date();
-    const today = `${date.getFullYear()}-${+date.getMonth()}-${date.getDate()}`;
+    const today = `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`;
     date = addDays(date, 9);
     const tenDaysFromToday = `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`;
     return { today, tenDaysFromToday };
@@ -50,19 +52,22 @@ function toClass(classEntity: any) {
         room: classEntity.attributes.classroom_display,
         name: classEntity.attributes.class_type_display,
         instructor: classEntity.attributes.instructor_names.join(' - ')
-    } as Class;
+    } as Models.Class;
 }
 
-function generateHtml(classesGroupedByDay: Class[][]) {
+function generateHtml(classesGroupedByDay: Models.Class[][]) {
     let html = '';
     
     classesGroupedByDay.forEach((c) => html += generateDayHtml(c));
     return html;
 }
 
-function generateDayHtml(classes: Class[]) {
-    let html = `<div class=\'\'><h2>${classes[0].startDateTime.toLocaleDateString('en-US', options)}</h2><ul>`;
-    classes.forEach(c => html += `<li>${c.startDateTime.toLocaleTimeString('en-US', dayOptions)}; ${c.name}; ${c.instructor}; ${c.room}</li>`)
+function generateDayHtml(classes: Models.Class[]) {
+    const now = Date.now();
+    if (classes.every(c => c.startDateTime.getTime() < now)) return '';
+    
+    let html = `<div class=\'day\'><h2>${classes[0].startDateTime.toLocaleDateString('en-US', options)}</h2><ul>`;
+    classes.forEach(c => html += `<li><p${c.startDateTime.getTime() < now ? ' class="passed"' : ""}>${c.startDateTime.toLocaleTimeString('en-US', dayOptions).replace(' AM', 'am').replace(' PM', 'pm')} ${c.name} <strong>${c.instructor}</strong> in ${c.room.replace(' Studio', '')}</p></li>`)
     return html + '</ul></div>';
 }
 
@@ -72,10 +77,3 @@ function addHtmlToPage(html: string) {
 
 const options = { weekday: 'short', month: 'short', day: 'numeric'};
 const dayOptions = { hour: 'numeric', minute: 'numeric' };
-
-type Class = {
-    startDateTime: Date;
-    room: string;
-    name: string;
-    instructor: string;
-};

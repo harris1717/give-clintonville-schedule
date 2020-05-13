@@ -7,4 +7,4 @@ npm install
 npm run build
 ```
 
-Will be hosted eventually
+[Hosted on GitHub Pages](https://harris1717.github.io/give-clintonville-schedule/dist/index.html)

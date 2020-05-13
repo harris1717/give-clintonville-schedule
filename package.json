@@ -6,7 +6,7 @@
     "main": "app.js",
     "scripts": {
         "start": "parcel src/index.html",
-        "build": "parcel build src/index.html --public-url ./"
+        "build": "parcel build src/index.html --public-url ./ --no-source-maps"
     },
     "browserslist": [
         "last 5 Chrome versions"
