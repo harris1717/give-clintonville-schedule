@@ -14,8 +14,9 @@ async function getClasses() {
 
 async function fetchSchedule() {
     const { today, tenDaysFromToday } = getDates();
+    const corsProxyUri = "https://cors-anywhere.herokuapp.com/";
     const uri = `https://giveyoga.marianatek.com/api/class_sessions?include=in_booking_window&location=48056&min_date=${today}&max_date=${tenDaysFromToday}&ordering=start_datetime&page_size=100`;
-    const response = await fetch(uri);
+    const response = await fetch(corsProxyUri + uri, { headers: { 'Content-Length': "0" } });
     const responseData = await response.json();
     const schedule = responseData.data;
     return schedule;
@@ -57,7 +58,7 @@ function toClass(classEntity: any) {
 
 function generateHtml(classesGroupedByDay: Models.Class[][]) {
     let html = '';
-    
+
     classesGroupedByDay.forEach((c) => html += generateDayHtml(c));
     return html;
 }
@@ -65,7 +66,7 @@ function generateHtml(classesGroupedByDay: Models.Class[][]) {
 function generateDayHtml(classes: Models.Class[]) {
     const now = Date.now();
     if (classes.every(c => c.startDateTime.getTime() < now)) return '';
-    
+
     let html = `<div class=\'day\'><h2>${classes[0].startDateTime.toLocaleDateString('en-US', options)}</h2><ul>`;
     classes.forEach(c => html += `<li><p${c.startDateTime.getTime() < now ? ' class="passed"' : ""}>${c.startDateTime.toLocaleTimeString('en-US', dayOptions).replace(' AM', 'am').replace(' PM', 'pm')} ${c.name} <strong>${c.instructor}</strong> in ${c.room.replace(' Studio', '')}</p></li>`)
     return html + '</ul></div>';
@@ -75,5 +76,5 @@ function addHtmlToPage(html: string) {
     document.getElementById('schedule')!.innerHTML = html;
 }
 
-const options = { weekday: 'short', month: 'short', day: 'numeric'};
+const options = { weekday: 'short', month: 'short', day: 'numeric' };
 const dayOptions = { hour: 'numeric', minute: 'numeric' };
